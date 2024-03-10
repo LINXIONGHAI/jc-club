@@ -26,5 +26,8 @@ spring:
           log-slow-sql: true
         wall:
           enabled: true
-logging:
-  config: classpath:log4j2-spring.xml
+#logging:
+#  config: classpath:log4j2-spring.xmly
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

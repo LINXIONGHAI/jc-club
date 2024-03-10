@@ -6,7 +6,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-03-05T21:08:22+0800",
+    date = "2024-03-10T11:59:29+0800",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 1.8.0_131 (Oracle Corporation)"
 )
 public class LabelBoToEntityImpl implements LabelBoToEntity {
