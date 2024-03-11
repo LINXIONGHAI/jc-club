@@ -32,4 +32,16 @@ public class SubjectController {
         return Result.ok();
 
     }
+    /**
+     * 题目详情
+     * @param subjectInfoDto
+     * @return
+     */
+    @PostMapping("/querySubjectInfo")
+    public Result querySubjectInfo(@RequestBody SubjectInfoDto subjectInfoDto) {
+        SubjectInfoBo subjectInfoBo = SubjectInfoDtoToBo.INSERT.convertDtoToBo(subjectInfoDto);
+        SubjectInfoBo bo=subjectServiceDomain.querySubject(subjectInfoBo);
+        return Result.ok(bo);
+
+    }
 }

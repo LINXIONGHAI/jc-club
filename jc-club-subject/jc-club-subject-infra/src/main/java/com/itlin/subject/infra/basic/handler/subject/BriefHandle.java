@@ -21,4 +21,9 @@ public class BriefHandle implements  SubjectInsertHandle{
         System.out.println(4+" 简答");
 
     }
+    @Override
+    public SubjectInfoBo query(int subjectId) {
+        System.out.println("query BriefHandle");
+        return null;
+    }
 }

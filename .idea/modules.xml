@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/jc-club.iml" filepath="$PROJECT_DIR$/.idea/jc-club.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jc-club-oss/jc-club-oss.iml" filepath="$PROJECT_DIR$/jc-club-oss/jc-club-oss.iml" />
       <module fileurl="file://$PROJECT_DIR$/jc-club-subject/jc-club-subject.iml" filepath="$PROJECT_DIR$/jc-club-subject/jc-club-subject.iml" />
       <module fileurl="file://$PROJECT_DIR$/jc-club-subject/jc-club-subject-api/jc-club-subject-api.iml" filepath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-api/jc-club-subject-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/jc-club-subject/jc-club-subject-application/jc-club-subject-application.iml" filepath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-application/jc-club-subject-application.iml" />

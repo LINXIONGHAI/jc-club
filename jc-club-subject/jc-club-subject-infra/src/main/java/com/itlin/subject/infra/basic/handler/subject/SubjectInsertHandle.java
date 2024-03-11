@@ -18,6 +18,12 @@ public interface SubjectInsertHandle {
      */
     void add(SubjectInfoBo subjectInfoBo);
 
+    /**
+     * 查询题目
+     * @param subjectInfoBo
+     */
+    SubjectInfoBo query(int subjectId);
+
 
 
 }

@@ -12,8 +12,10 @@ public class SubjectServiceDomainImpl implements SubjectServiceDomain {
 
     @Autowired
     private SubjectHandleFactory subjectHandleFactory;
+
     /**
      * 题目插入
+     *
      * @param subjectInfoBo
      */
     @Override
@@ -21,6 +23,15 @@ public class SubjectServiceDomainImpl implements SubjectServiceDomain {
 
         SubjectInsertHandle handle = subjectHandleFactory.getHandle(subjectInfoBo.getSubjectType());
         handle.add(subjectInfoBo);
+
+    }
+
+    @Override
+    public SubjectInfoBo querySubject(SubjectInfoBo subjectInfoBo) {
+        SubjectInsertHandle handle = subjectHandleFactory.getHandle(subjectInfoBo.getSubjectType());
+
+        handle.query(Integer.parseInt(subjectInfoBo.getId().toString()));
+        return null;
 
     }
 }

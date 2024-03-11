@@ -21,4 +21,10 @@ public class MultipleHandle implements  SubjectInsertHandle{
         System.out.println(2+" 多选");
 
     }
+
+    @Override
+    public SubjectInfoBo query(int subjectId) {
+        System.out.println("query MultipleHandle");
+        return null;
+    }
 }

@@ -8,4 +8,6 @@ public interface SubjectServiceDomain {
      * @param subjectInfoBo
      */
     void insetSubject(SubjectInfoBo subjectInfoBo);
+
+    SubjectInfoBo querySubject(SubjectInfoBo subjectInfoBo);
 }

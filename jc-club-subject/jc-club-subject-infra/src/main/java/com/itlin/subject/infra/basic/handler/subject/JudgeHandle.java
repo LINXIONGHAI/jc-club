@@ -21,4 +21,9 @@ public class JudgeHandle implements  SubjectInsertHandle{
         System.out.println(3+" 判断");
 
     }
+    @Override
+    public SubjectInfoBo query(int subjectId) {
+        System.out.println("query JudgeHandle");
+        return null;
+    }
 }

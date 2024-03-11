@@ -29,4 +29,10 @@ public class RadioHandle implements  SubjectInsertHandle{
         }
 
     }
+
+    @Override
+    public SubjectInfoBo query(int subjectId) {
+        System.out.println("query RadioHandle");
+        return null;
+    }
 }

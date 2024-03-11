@@ -10,14 +10,16 @@
         <module name="jc-club-subject-starter" />
         <module name="jc-club-subject-common" />
         <module name="jc-club-subject-controller" />
-        <module name="jc-club-subject-domain" />
+        <module name="jc-club-subject-job" />
         <module name="jc-club-subject-api" />
         <module name="jc-club-subject-mq" />
-        <module name="jc-club-subject-job" />
+        <module name="jc-club-subject-domain" />
+        <module name="jc-club-oss" />
         <module name="jc-club-subject-infra" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jc-club-oss" target="1.8" />
       <module name="jc-club-subject" target="1.8" />
       <module name="jc-club-subject-api" target="1.8" />
       <module name="jc-club-subject-application" target="1.8" />
