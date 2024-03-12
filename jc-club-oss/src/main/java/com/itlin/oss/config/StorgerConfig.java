@@ -4,10 +4,12 @@ import com.itlin.oss.service.StorgerService;
 import com.itlin.oss.service.impl.AliYunOssServiceImpl;
 import com.itlin.oss.service.impl.MinioOssServiceImpl;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
+@RefreshScope
 public class StorgerConfig {
 
 
@@ -15,6 +17,7 @@ public class StorgerConfig {
     private String ossType;
 
     @Bean
+    @RefreshScope
     public StorgerService StorgerService(){
         if(ossType.equals("minio")){
             return new MinioOssServiceImpl();

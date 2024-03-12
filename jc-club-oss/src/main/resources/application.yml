@@ -2,4 +2,9 @@ server:
   port: 3011
 
 oss:
-  type: aliyun11
+  config:
+    url: http://39.98.93.34:9000
+    accessKey: lxh
+    secretKey: Lxh1134153700
+    bucket: jc-club
+#  type: minio

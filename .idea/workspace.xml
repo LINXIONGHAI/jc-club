@@ -2,37 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb9c598-4442-427b-a655-34c1e7e23c9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/jc-club-oss.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/OssApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/config/StorgerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/controller/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/StorgerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/impl/AliYunOssServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/impl/MinioOssServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/resources/log4j2-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_commons_2021_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2021_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2021_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_thirdparty_simple_xml_safe_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_minio_minio_8_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bootstrap_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/config/MinioConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/util/MinioUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-oss/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-application/jc-club-subject-controller/src/main/java/com/itlin/subject/application/controller/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-application/jc-club-subject-controller/src/main/java/com/itlin/subject/application/controller/controller/SubjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-application/jc-club-subject-controller/target/classes/com/itlin/subject/application/controller/controller/SubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-application/jc-club-subject-controller/target/classes/com/itlin/subject/application/controller/controller/SubjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-domain/src/main/java/com/itlin/subject/domain/service/SubjectServiceDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-domain/src/main/java/com/itlin/subject/domain/service/SubjectServiceDomain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-domain/src/main/java/com/itlin/subject/domain/service/impl/SubjectServiceDomainImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-domain/src/main/java/com/itlin/subject/domain/service/impl/SubjectServiceDomainImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-domain/target/classes/com/itlin/subject/domain/service/SubjectServiceDomain.class" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-domain/target/classes/com/itlin/subject/domain/service/SubjectServiceDomain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-domain/target/classes/com/itlin/subject/domain/service/impl/SubjectServiceDomainImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-domain/target/classes/com/itlin/subject/domain/service/impl/SubjectServiceDomainImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/src/main/java/com/itlin/subject/infra/basic/handler/subject/BriefHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/src/main/java/com/itlin/subject/infra/basic/handler/subject/BriefHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/src/main/java/com/itlin/subject/infra/basic/handler/subject/JudgeHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/src/main/java/com/itlin/subject/infra/basic/handler/subject/JudgeHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/src/main/java/com/itlin/subject/infra/basic/handler/subject/MultipleHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/src/main/java/com/itlin/subject/infra/basic/handler/subject/MultipleHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/src/main/java/com/itlin/subject/infra/basic/handler/subject/RadioHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/src/main/java/com/itlin/subject/infra/basic/handler/subject/RadioHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/src/main/java/com/itlin/subject/infra/basic/handler/subject/SubjectInsertHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/src/main/java/com/itlin/subject/infra/basic/handler/subject/SubjectInsertHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/target/classes/com/itlin/subject/infra/basic/handler/subject/BriefHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/target/classes/com/itlin/subject/infra/basic/handler/subject/BriefHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/target/classes/com/itlin/subject/infra/basic/handler/subject/JudgeHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/target/classes/com/itlin/subject/infra/basic/handler/subject/JudgeHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/target/classes/com/itlin/subject/infra/basic/handler/subject/MultipleHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/target/classes/com/itlin/subject/infra/basic/handler/subject/MultipleHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/target/classes/com/itlin/subject/infra/basic/handler/subject/RadioHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/target/classes/com/itlin/subject/infra/basic/handler/subject/RadioHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/target/classes/com/itlin/subject/infra/basic/handler/subject/SubjectInsertHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-infra/target/classes/com/itlin/subject/infra/basic/handler/subject/SubjectInsertHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-oss/jc-club-oss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-oss/jc-club-oss.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-oss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-oss/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/config/StorgerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/config/StorgerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/StorgerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/StorgerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/impl/AliYunOssServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/impl/AliYunOssServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/impl/MinioOssServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-oss/src/main/java/com/itlin/oss/service/impl/MinioOssServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-oss/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-oss/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-starter/jc-club-subject-starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-starter/jc-club-subject-starter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jc-club-subject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jc-club-subject/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +198,7 @@
       <recent name="D:\app\java\project\jc-club\jc-club-subject\jc-club-subject-starter\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.OssApplication">
+  <component name="RunManager" selected="Spring Boot.SubjectApplication">
     <configuration name="OssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="jc-club-oss" />
       <extension name="coverage">
@@ -200,8 +227,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OssApplication" />
         <item itemvalue="Spring Boot.SubjectApplication" />
+        <item itemvalue="Spring Boot.OssApplication" />
         <item itemvalue="Spring Boot.SubjectApplication" />
       </list>
     </recent_temporary>
@@ -280,7 +307,11 @@
       <workItem from="1709997346768" duration="456000" />
       <workItem from="1709997839411" duration="76000" />
       <workItem from="1710042437937" duration="1196000" />
-      <workItem from="1710142602968" duration="3304000" />
+      <workItem from="1710142602968" duration="6527000" />
+      <workItem from="1710171319253" duration="643000" />
+      <workItem from="1710223914322" duration="2975000" />
+      <workItem from="1710227124228" duration="101000" />
+      <workItem from="1710231106354" duration="2434000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1709995908046</created>
@@ -331,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710043562997</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="创建oss服务，并且搭建适配器">
+      <created>1710167879061</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710167879062</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +421,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="解决jar包打包较小问题和添加mybatis-plus日志" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决jar包打包较小问题和添加mybatis-plus日志" />
+    <MESSAGE value="创建oss服务，并且搭建适配器" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建oss服务，并且搭建适配器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Notifications" timestamp="1709996169673">
@@ -399,10 +438,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1709264141852" />
-    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1710142742527">
+    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1710170860327">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1710142742527" />
+    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1710170860327" />
     <state x="371" y="117" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1709609803402">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -411,10 +450,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="84" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1709262582995" />
-    <state x="101" y="0" key="CommitChangelistDialog2" timestamp="1710043560326">
+    <state x="101" y="0" key="CommitChangelistDialog2" timestamp="1710167877921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="101" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1710043560326" />
+    <state x="101" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1710167877921" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1709264127174">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -427,65 +466,65 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1709609460797" />
-    <state width="1237" height="381" key="GridCell.Tab.0.bottom" timestamp="1710167620707">
+    <state width="1237" height="230" key="GridCell.Tab.0.bottom" timestamp="1710242235319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1710167620707" />
+    <state width="1237" height="230" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1710242235319" />
     <state width="1493" height="351" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1709431929221" />
-    <state width="1237" height="381" key="GridCell.Tab.0.center" timestamp="1710167620706">
+    <state width="1237" height="230" key="GridCell.Tab.0.center" timestamp="1710242235318">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1710167620706" />
+    <state width="1237" height="230" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1710242235318" />
     <state width="1493" height="351" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1709431929221" />
-    <state width="1237" height="381" key="GridCell.Tab.0.left" timestamp="1710167620706">
+    <state width="1237" height="230" key="GridCell.Tab.0.left" timestamp="1710242235318">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1710167620706" />
+    <state width="1237" height="230" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1710242235318" />
     <state width="1493" height="351" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1709431929221" />
-    <state width="1237" height="381" key="GridCell.Tab.0.right" timestamp="1710167620707">
+    <state width="1237" height="230" key="GridCell.Tab.0.right" timestamp="1710242235319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1710167620707" />
+    <state width="1237" height="230" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1710242235319" />
     <state width="1493" height="351" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1709431929221" />
-    <state width="1237" height="381" key="GridCell.Tab.1.bottom" timestamp="1710167620707">
+    <state width="1237" height="230" key="GridCell.Tab.1.bottom" timestamp="1710242235319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1710167620707" />
+    <state width="1237" height="230" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1710242235319" />
     <state width="1493" height="351" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1709431929221" />
-    <state width="1237" height="381" key="GridCell.Tab.1.center" timestamp="1710167620707">
+    <state width="1237" height="230" key="GridCell.Tab.1.center" timestamp="1710242235319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1710167620707" />
+    <state width="1237" height="230" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1710242235319" />
     <state width="1493" height="351" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1709431929221" />
-    <state width="1237" height="381" key="GridCell.Tab.1.left" timestamp="1710167620707">
+    <state width="1237" height="230" key="GridCell.Tab.1.left" timestamp="1710242235319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1710167620707" />
+    <state width="1237" height="230" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1710242235319" />
     <state width="1493" height="351" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1709431929221" />
-    <state width="1237" height="381" key="GridCell.Tab.1.right" timestamp="1710167620707">
+    <state width="1237" height="230" key="GridCell.Tab.1.right" timestamp="1710242235319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1710167620707" />
+    <state width="1237" height="230" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1710242235319" />
     <state width="1493" height="351" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1709431929221" />
-    <state width="1237" height="381" key="GridCell.Tab.2.bottom" timestamp="1710167620708">
+    <state width="1237" height="230" key="GridCell.Tab.2.bottom" timestamp="1710242235319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1710167620708" />
+    <state width="1237" height="230" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1710242235319" />
     <state width="1493" height="351" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1709431929222" />
-    <state width="1237" height="381" key="GridCell.Tab.2.center" timestamp="1710167620707">
+    <state width="1237" height="230" key="GridCell.Tab.2.center" timestamp="1710242235319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1710167620707" />
+    <state width="1237" height="230" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1710242235319" />
     <state width="1493" height="351" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1709431929222" />
-    <state width="1237" height="381" key="GridCell.Tab.2.left" timestamp="1710167620707">
+    <state width="1237" height="230" key="GridCell.Tab.2.left" timestamp="1710242235319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1710167620707" />
+    <state width="1237" height="230" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1710242235319" />
     <state width="1493" height="351" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1709431929221" />
-    <state width="1237" height="381" key="GridCell.Tab.2.right" timestamp="1710167620708">
+    <state width="1237" height="230" key="GridCell.Tab.2.right" timestamp="1710242235319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="381" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1710167620708" />
+    <state width="1237" height="230" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1710242235319" />
     <state width="1493" height="351" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1709431929222" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1710166653335">
       <screen x="0" y="0" width="1280" height="680" />
@@ -496,10 +535,10 @@
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1709996680814" />
     <state x="257" y="91" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1709401178273" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1710043567683">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1710167881906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1710043567683" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1710167881906" />
     <state x="499" y="218" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1709402164029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
