@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: jc-club-auth
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: Lxh1134153700
+        server-addr: 39.98.93.34:8848
+        namespace: 55a04f88-5b24-4d5d-a2a7-b5fb2b91b10c
+        group: dev
+      config:
+        namespace: 55a04f88-5b24-4d5d-a2a7-b5fb2b91b10c
+        file-extension: yaml
+        group: dev
+        server-addr: 39.98.93.34:8848
+
+
+

@@ -11,5 +11,13 @@
 
     <artifactId>jc-club-auth-domain</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.itlin</groupId>
+            <artifactId>jc-club-auth-infra</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

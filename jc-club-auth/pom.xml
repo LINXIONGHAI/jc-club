@@ -10,14 +10,50 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>jc-club-auth-api</module>
-        <module>untitled</module>
         <module>jc-club-auth-application</module>
-        <module>jc-club-auth-controller</module>
         <module>jc-club-auth-common</module>
         <module>jc-club-auth-domain</module>
         <module>jc-club-auth-infra</module>
         <module>jc-club-auth-starter</module>
     </modules>
+    <properties>
+        <aliyun-spring-boot.version>1.0.0</aliyun-spring-boot.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>2021.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <version>2021.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
+            <version>2.4.2</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>aliyun-spring-boot-dependencies</artifactId>
+            <version>${aliyun-spring-boot.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
