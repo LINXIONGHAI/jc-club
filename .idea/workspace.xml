@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb9c598-4442-427b-a655-34c1e7e23c9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-auth/jc-club-auth-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-auth/jc-club-auth-application/jc-club-auth-controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-auth/jc-club-auth-application/jc-club-auth-job/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-auth/jc-club-auth-application/jc-club-auth-mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-auth/jc-club-auth-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-auth/jc-club-auth-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-auth/jc-club-auth-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-auth/jc-club-auth-infra/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-auth/jc-club-auth-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jc-club-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +254,8 @@
       <workItem from="1710227124228" duration="101000" />
       <workItem from="1710231106354" duration="4670000" />
       <workItem from="1710581296080" duration="2920000" />
-      <workItem from="1710635608766" duration="911000" />
+      <workItem from="1710635608766" duration="1176000" />
+      <workItem from="1710642055627" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1709995908046</created>
@@ -323,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710635873500</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修改gitgnore">
+      <created>1710637231565</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710637231565</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,10 +403,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1709996169673" />
-    <state x="233" y="0" key="#Project_Structure" timestamp="1710242999373">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1710642540675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1710242999373" />
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1710642540675" />
     <state x="280" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1709401667201" />
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1709264141852">
       <screen x="0" y="0" width="1280" height="680" />
@@ -406,10 +424,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="84" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1709262582995" />
-    <state x="101" y="0" key="CommitChangelistDialog2" timestamp="1710635872189">
+    <state x="101" y="0" key="CommitChangelistDialog2" timestamp="1710637230781">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="101" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1710635872189" />
+    <state x="101" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1710637230781" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1709264127174">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -491,10 +509,10 @@
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1709996680814" />
     <state x="257" y="91" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1709401178273" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1710635877830">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1710637233758">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1710635877830" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1710637233758" />
     <state x="499" y="218" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1709402164029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -503,10 +521,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1710042738834" />
-    <state x="56" y="51" key="new project wizard" timestamp="1710165924256">
+    <state x="56" y="0" key="new project wizard" timestamp="1710642525045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="56" y="51" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1710165924256" />
+    <state x="56" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1710642525045" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1709994913747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

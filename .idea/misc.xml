@@ -8,7 +8,15 @@
       <list>
         <option value="$PROJECT_DIR$/jc-club-subject/pom.xml" />
         <option value="$PROJECT_DIR$/jc-club-oss/pom.xml" />
+        <option value="$PROJECT_DIR$/jc-club-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/jc-club-gateway/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/jc-club-auth/jc-club-auth-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/jc-club-auth/untitled/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

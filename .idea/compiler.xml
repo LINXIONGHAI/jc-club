@@ -7,18 +7,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jc-club-subject-starter" />
-        <module name="jc-club-subject-common" />
+        <module name="jc-club-auth-controller" />
+        <module name="jc-club-auth-mq" />
         <module name="jc-club-subject-controller" />
-        <module name="jc-club-subject-job" />
+        <module name="jc-club-subject-common" />
         <module name="jc-club-subject-api" />
-        <module name="jc-club-subject-mq" />
-        <module name="jc-club-subject-domain" />
         <module name="jc-club-oss" />
+        <module name="jc-club-subject-domain" />
+        <module name="jc-club-auth-api" />
+        <module name="jc-club-gateway" />
         <module name="jc-club-subject-infra" />
+        <module name="jc-club-auth-common" />
+        <module name="jc-club-auth-infra" />
+        <module name="jc-club-subject-job" />
+        <module name="jc-club-auth-job" />
+        <module name="jc-club-subject-mq" />
+        <module name="jc-club-auth-starter" />
+        <module name="jc-club-subject-starter" />
+        <module name="jc-club-auth-domain" />
+        <module name="untitled" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jc-club-auth" target="1.8" />
+      <module name="jc-club-auth-api" target="1.8" />
+      <module name="jc-club-auth-application" target="1.8" />
+      <module name="jc-club-auth-common" target="1.8" />
+      <module name="jc-club-auth-controller" target="1.8" />
+      <module name="jc-club-auth-domain" target="1.8" />
+      <module name="jc-club-auth-infra" target="1.8" />
+      <module name="jc-club-auth-job" target="1.8" />
+      <module name="jc-club-auth-mq" target="1.8" />
+      <module name="jc-club-auth-starter" target="1.8" />
+      <module name="jc-club-gateway" target="1.8" />
       <module name="jc-club-oss" target="1.8" />
       <module name="jc-club-subject" target="1.8" />
       <module name="jc-club-subject-api" target="1.8" />
@@ -30,6 +51,7 @@
       <module name="jc-club-subject-job" target="1.8" />
       <module name="jc-club-subject-mq" target="1.8" />
       <module name="jc-club-subject-starter" target="1.8" />
+      <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
