@@ -7,7 +7,7 @@ spring:
     driver-  class-name: com.mysql.jdbc.Driver
     username: root
     password: Lxh1134153700
-    url: jdbc:mysql://39.98.93.34:3306/jc_club?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://124.70.88.211:3306/jc-club?characterEncoding=utf-8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       initial-size: 20
@@ -26,6 +26,36 @@ spring:
           log-slow-sql: true
         wall:
           enabled: true
+  # redis配置
+  redis:
+    # Redis数据库索引（默认为0）
+    database: 1
+    # Redis服务器地址
+    host: 124.70.88.211
+    # Redis服务器连接端口
+    port: 6379
+    # Redis服务器连接密码（默认为空）
+    password: Lxh1134153700
+    # 连接超时时间
+    timeout: 10s
+    lettuce:
+      pool:
+        # 连接池最大连接数
+        max-active: 200
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: -1ms
+        # 连接池中的最大空闲连接
+        max-idle: 10
+        # 连接池中的最小空闲连接
+        min-idle: 0
+
+es:
+  cluster:
+    esConfigs[0]:
+      name: 405d0e9f65f7
+      nodes: 124.70.88.211:9200
+
+
 #logging:
 #  config: classpath:log4j2-spring.xmly
 mybatis-plus:

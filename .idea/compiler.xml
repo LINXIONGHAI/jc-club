@@ -9,11 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jc-club-auth-controller" />
         <module name="jc-club-auth-mq" />
-        <module name="jc-club-subject-controller" />
-        <module name="jc-club-subject-common" />
-        <module name="jc-club-subject-api" />
-        <module name="jc-club-oss" />
         <module name="jc-club-subject-domain" />
+        <module name="jc-club-wx" />
+        <module name="jc-club-subject-common" />
+        <module name="jc-club-oss" />
+        <module name="jc-club-subject-api" />
         <module name="jc-club-auth-api" />
         <module name="jc-club-gateway" />
         <module name="jc-club-subject-infra" />
@@ -22,6 +22,7 @@
         <module name="jc-club-subject-job" />
         <module name="jc-club-auth-job" />
         <module name="jc-club-subject-mq" />
+        <module name="jc-club-subject-controller" />
         <module name="jc-club-auth-starter" />
         <module name="jc-club-subject-starter" />
         <module name="jc-club-auth-domain" />
@@ -51,7 +52,20 @@
       <module name="jc-club-subject-job" target="1.8" />
       <module name="jc-club-subject-mq" target="1.8" />
       <module name="jc-club-subject-starter" target="1.8" />
+      <module name="jc-club-wx" target="1.8" />
       <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jc-club-auth-api" options="-parameters" />
+      <module name="jc-club-auth-common" options="-parameters" />
+      <module name="jc-club-auth-controller" options="-parameters" />
+      <module name="jc-club-auth-domain" options="-parameters" />
+      <module name="jc-club-auth-infra" options="-parameters" />
+      <module name="jc-club-auth-job" options="-parameters" />
+      <module name="jc-club-auth-mq" options="-parameters" />
+      <module name="jc-club-auth-starter" options="-parameters" />
+    </option>
   </component>
 </project>

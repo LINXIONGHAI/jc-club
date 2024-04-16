@@ -48,4 +48,13 @@ public class Result<T> {
         return result;
     }
 
+    public static Result fail(int code,String mesg){
+        Result result = new Result();
+        result.setSuccess(false);
+        result.setCode(code);
+        result.setMessage(mesg);
+        return result;
+    }
+
+
 }

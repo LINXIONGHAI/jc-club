@@ -8,14 +8,29 @@ spring:
       discovery:
         username: nacos
         password: Lxh1134153700
-        server-addr: 39.98.93.34:8848
-        namespace: 55a04f88-5b24-4d5d-a2a7-b5fb2b91b10c
+        server-addr: 124.70.88.211:8848
+        namespace: 1982d6e1-b2a0-4871-8ef3-de9887b8617b
         group: dev
       config:
-        namespace: 55a04f88-5b24-4d5d-a2a7-b5fb2b91b10c
+        namespace: 1982d6e1-b2a0-4871-8ef3-de9887b8617b
         file-extension: yaml
         group: dev
-        server-addr: 39.98.93.34:8848
+        server-addr: 124.70.88.211:8848
+        #sentinel
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: 127.0.0.1:1234
+      datasource:
+        nacos:
+          nacos:
+            serverAddr: 124.70.88.211:8848
+            username: nacos
+            password: Lxh1134153700
+            namespace: 1982d6e1-b2a0-4871-8ef3-de9887b8617b
+            groupId: dev
+            dataId: sentinel
+            ruleType: flow
 
 
 

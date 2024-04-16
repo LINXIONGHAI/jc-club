@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/jc-club-subject/jc-club-subject-application/jc-club-subject-job/jc-club-subject-job.iml" filepath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-application/jc-club-subject-job/jc-club-subject-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/jc-club-subject/jc-club-subject-application/jc-club-subject-mq/jc-club-subject-mq.iml" filepath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-application/jc-club-subject-mq/jc-club-subject-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/jc-club-subject/jc-club-subject-starter/jc-club-subject-starter.iml" filepath="$PROJECT_DIR$/jc-club-subject/jc-club-subject-starter/jc-club-subject-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jc-club-wx/jc-club-wx.iml" filepath="$PROJECT_DIR$/jc-club-wx/jc-club-wx.iml" />
     </modules>
   </component>
 </project>
